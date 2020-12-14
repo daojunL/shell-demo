@@ -1,4 +1,8 @@
 #! /bin/bash
+# This file shows how to use shell command to create a private, how to read the user input
+# ls -al can display the autorities of read and write of all the files in the current directory
+# If we want to make this file as excutable, we need to change it 
+# chmod +x filename.sh, eg. chmod +x shell_basics.sh
 var1=10
 echo This is var1.
 echo $HOME
@@ -11,7 +15,7 @@ echo "please input your name"
 read name 
 echo "Your name is : $name"
 
-# echo "please input your name, age and gender"
+secho "please input your name, age and gender"
 read name age gender
 echo "Your name is $name, your age is $age, you gender is $gender"
 
