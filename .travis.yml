@@ -1,0 +1,9 @@
+language: bash
+
+os:
+  - linux
+  - osx
+
+script:
+  echo "Practices for bash"
+  echo "try using the Travis CI tool"
